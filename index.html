@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS4 Controller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controller">
+        <!-- Joystick -->
+        <div class="joystick-container">
+            <canvas id="joystickCanvas" width="150" height="150"></canvas>
+        </div>
 
+        <!-- Screen Label to show coordinates -->
+        <div class="screen-label" id="screen">X: 0, Y: 0</div>
+
+        <!-- Start and Stop buttons -->
+        <div class="buttons-container">
+            <button id="start" class="control-button">Start</button>
+            <button id="stop" class="control-button">Stop</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
